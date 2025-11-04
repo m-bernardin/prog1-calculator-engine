@@ -22,4 +22,9 @@ q26.
     equals()         |     7?       |      0      |        '+'
     getDisplayValue  |      7       |      0      |        '+'
 q27. yes...?
+
 q28.  
+    clear()          |      0       |      0      |        '+'
+    no, it still has the + as the previousOperator, it might affect them by applying the wrong operator?
+29. it should also clear the previousOperator, and the leftOperand
+30. it should be 6, which it displays 
