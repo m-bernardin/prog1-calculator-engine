@@ -28,3 +28,5 @@ q28.
     no, it still has the + as the previousOperator, it might affect them by applying the wrong operator?
 29. it should also clear the previousOperator, and the leftOperand
 30. it should be 6, which it displays 
+
+part iv:
