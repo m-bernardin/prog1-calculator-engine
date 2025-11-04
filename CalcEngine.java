@@ -128,4 +128,14 @@ public class CalcEngine
             leftOperand = displayValue;
         }
     }
+    
+    public int getLeftOperand()
+    {
+        return leftOperand;
+    }
+    
+    public char getPreviousOperator()
+    {
+        return previousOperator;
+    }
 }
