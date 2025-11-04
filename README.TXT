@@ -21,4 +21,5 @@ q26.
     numberPressed(4) |      4       |      3      |        '+'
     equals()         |     7?       |      0      |        '+'
     getDisplayValue  |      7       |      0      |        '+'
-q27. 
+q27. yes...?
+q28.  
