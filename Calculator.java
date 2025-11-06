@@ -22,6 +22,9 @@ public class Calculator
         clear();
     }
     
+    /**
+     * resets all variables of the calculator
+     */
     public void clear()
     {
         displayNumber=0;
@@ -29,12 +32,20 @@ public class Calculator
         previousNumber=0;
     }
     
+    /**
+     * simulates pressing a number on the calculator
+     * 
+     * @param number the number being pressed
+     */
     public void pressNumber(int number)
     {
         //makes sure to move over the current number if two numbers are entered back to back
         displayNumber=displayNumber*10+number;
     }
     
+    /**
+     * simulates pressing the plus button on the calculator
+     */
     public void plus()
     {
         if(previousNumber!=0){
@@ -48,6 +59,9 @@ public class Calculator
         currentOperator='+';
     }
     
+    /**
+     * simulates pressing the minus button on the calculator
+     */
     public void minus()
     {
         if(previousNumber!=0){
@@ -61,6 +75,9 @@ public class Calculator
         currentOperator='-';
     }
     
+    /**
+     * simulates pressing the equals button on the calculator
+     */
     public void equals()
     {
         if(currentOperator=='+'){
@@ -76,26 +93,51 @@ public class Calculator
         }
     }
     
+    /**
+     * gets the number currently being displayed 
+     * 
+     * @return displayNumber
+     */
     public int getDisplayNumber()
     {
         return displayNumber;
     }
     
+    /**
+     * gets the last number that was displayed 
+     * 
+     * @return previousNumber
+     */
     public int getPreviousNumber()
     {
         return previousNumber;
     }
     
+    /**
+     * gets the operation to be next fufilled
+     * 
+     * @return currentOperator
+     */
     public char getCurrentOperator()
     {
         return currentOperator;
     }
     
+    /**
+     * gets the author of the project
+     * 
+     * @return author
+     */
     public String getAuthor()
     {
         return "Hacker T. Largerbrain";
     }
     
+    /**
+     * gets the version of the project
+     * 
+     * @return version
+     */
     public String getVersion()
     {
         return "v1.0";

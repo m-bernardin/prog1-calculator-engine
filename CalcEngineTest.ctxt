@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CalcEngineTest
+comment0.text=\r\n\ Test\ the\ CalcEngine\ class.\r\n\ \r\n\ @author\ Hacker\ T.\ Largebrain\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=CalcEngineTest()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CalcEngineTester\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment3.params=
+comment3.target=void\ testPlus()
+comment3.text=\r\n\ Test\ the\ plus\ operation\ of\ the\ engine.\r\n\ @return\ the\ result\ of\ calculating\ 3+4.\r\n
+comment4.params=
+comment4.target=void\ testMinus()
+comment4.text=\r\n\ Test\ the\ minus\ operation\ of\ the\ engine.\r\n\ @return\ the\ result\ of\ calculating\ 9\ -\ 4.\r\n
+comment5.params=
+comment5.target=void\ testPressNumber()
+comment6.params=
+comment6.target=void\ testMultipleDigits()
+numComments=7
